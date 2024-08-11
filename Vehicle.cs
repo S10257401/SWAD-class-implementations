@@ -36,3 +36,11 @@
         public string Type { get; set; }
     }
 }
+
+//Xavier Lian 
+public class Car
+{
+    public int CarId { get; set; }
+    public string Model { get; set; }
+    public string VehicleType { get; set; }
+}

@@ -12,6 +12,15 @@
         // Logic to send success notification
         Console.WriteLine($"Success notification sent to {email}");
     }
+
+    // methods - Xavier Lian 
+    public class NotificationService
+{
+    public void SendReturnCarSuccessNotification(Renter renter)
+    {
+        Console.WriteLine($"Return process completed successfully for renter: {renter.Email}");
+    }
+}
 }
 
 
